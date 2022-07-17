@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trading Buy/Sell preference viewer</title>
+</head>
+<body>
+    <section>
+        <div class="container pr-5">
+            <div class="row" style="item-align:center;">
+                <div class="col-md-6" >
+                    <!-- TradingView Widget BEGIN -->
+                    <div class="tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <div class="tradingview-widget-copyright">
+                            <a href="https://in.tradingview.com/symbols/BTCUSD/technicals/" rel="noopener" target="_blank">                            </a>
+                        </div>
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+                        {
+                            "interval" : "1m",
+                            "width": "100%",
+                            "isTransparent": true,
+                            "height": "475",
+                            "symbol": "COINBASE:BTCUSD",
+                            "showIntervalTabs": true,
+                            "locale": "in",
+                            "colorTheme": "dark"
+                        }
+                        </script>
+                    </div>
+                </div>
+                <hr>
+                <div class="col-md-6">
+                    <div class="tradingview-widget-container">
+                        <div class="tradingview-widget-container__widget"></div>
+                        <div class="tradingview-widget-copyright">
+                            <a href="https://in.tradingview.com/symbols/ETHUSD/technicals/" rel="noopener" target="_blank"></a>
+                        </div>
+                        <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-technical-analysis.js" async>
+                        {
+                            "interval": "1m",
+                            "width": "100%",
+                            "isTransparent": true,
+                            "height": "475",
+                            "symbol": "COINBASE:ETHUSD",
+                            "showIntervalTabs": true,
+                            "locale": "in",
+                            "colorTheme": "dark"
+                        }
+                        </script>
+                    </div>
+                </div>
+                <hr>
+
+
+
+
+
+            </div>
+    </section>
+</body>
+</html>
